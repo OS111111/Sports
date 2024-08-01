@@ -1,0 +1,23 @@
+.app {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.events-list, .selected-events {
+  width: 45%;
+}
+
+.event-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.event-card h3 {
+  margin: 0;
+}
+
+.event-card button {
+  margin-top: 10px;
+}
